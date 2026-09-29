@@ -3,5 +3,7 @@
 {% block main %} 
 <p> welcome to our brewery home page!</p>
 <p> {{ user }}</p>
-<img src="{{ url_for('static', filename='Images/Why_Brewing_Beer_Is_Hard-1 (1).webp') }}" alt="Cold glass of beer">
+<img src="{{ url_for('static', filename='Images/Why_Brewing_Beer_Is_Hard-1 (1).webp') }}" alt="Cold glass of beer" style="max-width: 300px; width: 100%; height: auto;">
+<img src="{{ url_for('static', filename='Images/OIP.jpg') }}" alt="Brewery image" style="max-width: 300px; width: 100%; height: auto;">
+<img src="{{ url_for('static', filename='Images/OIP (1).jpg') }}" alt="Brewery image" style="max-width: 300px; width: 100%; height: auto;">
 {% endblock main %}
